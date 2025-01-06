@@ -4,7 +4,7 @@ body {
 }
 
 #navbar {
-  font-size: 1, 5rem;
+  font-size: 1.5rem;
   font-weight: 100;
 }
 
@@ -18,5 +18,17 @@ body {
 
 #navbar .navbar-brand {
   color: aqua;
-  font-size: 1, 5rem;
+  font-size: 1.5rem;
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
 }
